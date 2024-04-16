@@ -1,307 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coforge Institute of Technology</title>
-    <link
-      rel="shortcut icon"
-      href="./icons/university.svg"
-      type="image/x-icon"
-    />
-  </head>
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="./css/common.css" />
-  <link rel="stylesheet" href="./css/navbar.css" />
-  <link rel="stylesheet" href="./css/sidebar.css" />
-  <link rel="stylesheet" href="./css/footer.css" />
-  <link rel="stylesheet" href="./css/single-featured.css" />
-  <script src="./js/app.js" defer></script>
-  <body>
-    <!-- nav section start -->
-    <nav class="nav-container">
-      <div class="nav-center wrapper">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coforge Institute of Technology</title>
+  <link rel="shortcut icon" href="./icons/university.svg" type="image/x-icon" />
+</head>
+<link rel="stylesheet" href="./css/style.css" />
+<link rel="stylesheet" href="./css/common.css" />
+<link rel="stylesheet" href="./css/navbar.css" />
+<link rel="stylesheet" href="./css/sidebar.css" />
+<link rel="stylesheet" href="./css/footer.css" />
+<link rel="stylesheet" href="./css/single-featured.css" />
+<script src="./js/app.js" defer></script>
+
+<body>
+  <!-- nav section start -->
+  <nav class="nav-container">
+    <div class="nav-center wrapper">
+      <div class="logo-section">
+        <a href="./"><img src="./icons//university.svg" alt="university logo" class="logo" /></a>
+      </div>
+      <div class="hamburger">
+        <img src="./icons/bars.svg" alt="sidebar button" />
+      </div>
+      <div class="nav-links-main">
+        <ul class="nav-links">
+          <li><a class="nav-link" href="./">Home</a></li>
+          <li><a class="nav-link" href="./about.html">about</a></li>
+          <li><a class="nav-link" href="./courses.html">courses</a></li>
+          <li><a class="nav-link" href="./contact.html">contact</a></li>
+          <li><a class="nav-link active" href="./career.html">careers</a></li>
+        </ul>
+        <div class="dark">
+          <input type="checkbox" class="checkbox" id="checkbox" />
+          <label for="checkbox" class="checkbox-label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <span class="ball"></span>
+          </label>
+        </div>
+      </div>
+      <div class="nav-social-links-main">
+        <ul class="nav-social-links">
+          <li class="nav-social-link">
+            <a href="https://www.instagram.com/coforge.company/" target="_blank">
+              <img src="./icons/instagram.svg" alt="Coforge instagram" />
+            </a>
+          </li>
+          <li class="nav-social-link">
+            <a href="https://www.youtube.com/channel/UC-9Vk052THg8iIOJQQNUkqQ" target="_blank">
+              <img src="./icons/youtube.svg" alt="Coforge youtube" />
+            </a>
+          </li>
+          <li class="nav-social-link">
+            <a href="https://github.com/Coforge" target="_blank">
+              <img src="./icons/github.svg" alt="Coforge github" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- nav section end -->
+
+  <!-- sidebar section start -->
+  <aside class="sidebar-container">
+    <div class="sidebar-center wrapper">
+      <div class="side-header">
         <div class="logo-section">
-          <a href="./"
-            ><img
-              src="./icons//university.svg"
-              alt="university logo"
-              class="logo"
-          /></a>
+          <a href="#home"><img src="./icons//university.svg" alt="university logo" class="logo" /></a>
         </div>
-        <div class="hamburger">
-          <img src="./icons/bars.svg" alt="sidebar button" />
+        <div class="close-button">
+          <img src="./icons/close.svg" alt="sidebar close" />
         </div>
-        <div class="nav-links-main">
-          <ul class="nav-links">
+      </div>
+      <div class="sidebar-content">
+        <div class="sidebar-links-main paddingTopMobile-fifty">
+          <ul class="sidebar-links">
             <li><a class="nav-link" href="./">Home</a></li>
-            <li><a class="nav-link" href="./about.html">about</a></li>
+            <li><a class="nav-link active" href="./about.html">about</a></li>
             <li><a class="nav-link" href="./courses.html">courses</a></li>
             <li><a class="nav-link" href="./contact.html">contact</a></li>
-            <li><a class="nav-link active" href="./career.html">careers</a></li>
+            <li><a class="nav-link" href="./career.html">careers</a></li>
           </ul>
-          <div class="dark">
-            <input type="checkbox" class="checkbox" id="checkbox" />
-            <label for="checkbox" class="checkbox-label">
-              <i class="fas fa-moon"></i>
-              <i class="fas fa-sun"></i>
-              <span class="ball"></span>
-            </label>
-          </div>
-        </div>
-        <div class="nav-social-links-main">
-          <ul class="nav-social-links">
-            <li class="nav-social-link">
-              <a
-                href="https://www.instagram.com/coforge.company/"
-                target="_blank"
-              >
-                <img src="./icons/instagram.svg" alt="Coforge instagram" />
-              </a>
-            </li>
-            <li class="nav-social-link">
-              <a
-                href="https://www.youtube.com/channel/UC-9Vk052THg8iIOJQQNUkqQ"
-                target="_blank"
-              >
-                <img src="./icons/youtube.svg" alt="Coforge youtube" />
-              </a>
-            </li>
-            <li class="nav-social-link">
-              <a href="https://github.com/Coforge" target="_blank">
-                <img src="./icons/github.svg" alt="Coforge github" />
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- nav section end -->
-
-    <!-- sidebar section start -->
-    <aside class="sidebar-container">
-      <div class="sidebar-center wrapper">
-        <div class="side-header">
-          <div class="logo-section">
-            <a href="#home"
-              ><img
-                src="./icons//university.svg"
-                alt="university logo"
-                class="logo"
-            /></a>
-          </div>
-          <div class="close-button">
-            <img src="./icons/close.svg" alt="sidebar close" />
-          </div>
-        </div>
-        <div class="sidebar-content">
-          <div class="sidebar-links-main paddingTopMobile-fifty">
-            <ul class="sidebar-links">
-              <li><a class="nav-link" href="./">Home</a></li>
-              <li><a class="nav-link active" href="./about.html">about</a></li>
-              <li><a class="nav-link" href="./courses.html">courses</a></li>
-              <li><a class="nav-link" href="./contact.html">contact</a></li>
-              <li><a class="nav-link" href="./career.html">careers</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </aside>
-    <!-- sidebar section end -->
-
-    <!-- page section start -->
-    <div class="page-container">
-      <div class="page">
-        <div class="img-component">
-          <div class="img-container">
-            <img src="./assets/Career_Image.webp" alt="career image" />
-          </div>
-        </div>
-        <div class="box paddingTopMobile-thirty paddingBottomMobile-thirty">
-          <div class="content wrapper text-container text-center">
-            <h1 class="heading">Coforge Institute of Technology</h1>
-            <h3 class="small-heading">your career is here</h3>
-          </div>
         </div>
       </div>
     </div>
-    <!-- page section end -->
+  </aside>
+  <!-- sidebar section end -->
 
-    <!-- single featured component start -->
-    <div
-      class="single-featured-container reverse-content light-blue-background"
-    >
-      <div class="single-featured-center wrapper">
-        <div
-          class="section-title paddingTopDesktop-hundred paddingTopMobile-fifty"
-        >
-          <h3 class="title">career</h3>
-          <div class="underline"></div>
+  <!-- page section start -->
+  <div class="page-container">
+    <div class="page">
+      <div class="img-component">
+        <div class="img-container">
+          <img src="./assets/Career_Image.webp" alt="career image" />
         </div>
+      </div>
+      <div class="box paddingTopMobile-thirty paddingBottomMobile-thirty">
+        <div class="content wrapper text-container text-center">
+          <h1 class="heading">Coforge Institute of Technology</h1>
+          <h3 class="small-heading">your career is here</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- page section end -->
+
+  <!-- single featured component start -->
+  <d class="single-featured-container reverse-content light-blue-background">
+    <div class="single-featured-center wrapper">
+      <div class="section-title paddingTopDesktop-hundred paddingTopMobile-fifty">
+        <h3 class="title">career</h3>
+        <div class="underline"></div>
+      </div>
+      <div class="single-featured-text-component">
+        <div class="featured-center">
+          <div class="about-info">
+            <h2>
+              Coforge is a global digital services and solutions provider,
+              that enables its clients to transform at the intersect of domain
+              expertise and emerging technologies to achieve real-world
+              business impact.
+            </h2>
+            <hr />
+            <p>
+              A focus on very select industries, a detailed understanding of
+              the underlying processes of those industries and partnerships
+              with leading platforms provides us a distinct perspective.
+              Coforge leads with its product engineering approach and
+              leverages Cloud, Data, Integration and Automation technologies
+              to transform client businesses into intelligent, high growth
+              enterprises. Coforge’s proprietary platforms power critical
+              business processes across its core verticals. The firm has a
+              presence in 21 countries with 25 delivery centers across nine
+              countries.
+            </p>
+            <p>
+              We are always on the lookout for outstanding talent to empower
+              our clients and grow our organization further. So come join team
+              Coforge, where you can move ahead in your career and we can
+              reach new heights together! #MovingAheadTogether
+            </p>
+          </div>
+        </div>
+      </div>
+      <section
+        class="single-featured paddingTopDesktop-fifty paddingBottomDesktop-hundred paddingTopMobile-fifty paddingBottomMobile-fifty">
         <div class="single-featured-text-component">
           <div class="featured-center">
             <div class="about-info">
-              <h2>
-                Coforge is a global digital services and solutions provider,
-                that enables its clients to transform at the intersect of domain
-                expertise and emerging technologies to achieve real-world
-                business impact.
-              </h2>
-              <hr />
+              <h3>
+                Our vision is to "Engage with the Emerging," emphasizing our
+                dedication to engaging customers, partners, and employees with
+                emerging technologies and accelerating business models through
+                intelligence and insights.
+              </h3>
               <p>
-                A focus on very select industries, a detailed understanding of
-                the underlying processes of those industries and partnerships
-                with leading platforms provides us a distinct perspective.
-                Coforge leads with its product engineering approach and
-                leverages Cloud, Data, Integration and Automation technologies
-                to transform client businesses into intelligent, high growth
-                enterprises. Coforge’s proprietary platforms power critical
-                business processes across its core verticals. The firm has a
-                presence in 21 countries with 25 delivery centers across nine
-                countries.
+                At Coforge, we believe in growing with our employees and
+                enabling them to reach new heights. At the grassroots level,
+                empowering every employee and giving them the space to widen
+                their horizons is what can make a difference and that’s what
+                we aim for, here at Coforge.
               </p>
               <p>
-                We are always on the lookout for outstanding talent to empower
-                our clients and grow our organization further. So come join team
-                Coforge, where you can move ahead in your career and we can
-                reach new heights together! #MovingAheadTogether
+                In line with our vision, which asserts that our progress is a
+                result of each of our individual growth, we also cultivate a
+                non-discriminatory atmosphere that nourishes and supports
+                people of various backgrounds, ethnicities, cultures, genders,
+                and orientations. Being accredited as a Great Place to Work®
+                and a Top 100 India's Best Workplaces for Women (Large) for
+                the second year in a row is testament to the inclusive culture
+                we build and value.
               </p>
             </div>
           </div>
         </div>
-        <section
-          class="single-featured paddingTopDesktop-fifty paddingBottomDesktop-hundred paddingTopMobile-fifty paddingBottomMobile-fifty"
-        >
-          <div class="single-featured-text-component">
-            <div class="featured-center">
-              <div class="about-info">
-                <h3>
-                  Our vision is to "Engage with the Emerging," emphasizing our
-                  dedication to engaging customers, partners, and employees with
-                  emerging technologies and accelerating business models through
-                  intelligence and insights.
-                </h3>
-                <p>
-                  At Coforge, we believe in growing with our employees and
-                  enabling them to reach new heights. At the grassroots level,
-                  empowering every employee and giving them the space to widen
-                  their horizons is what can make a difference and that’s what
-                  we aim for, here at Coforge.
-                </p>
-                <p>
-                  In line with our vision, which asserts that our progress is a
-                  result of each of our individual growth, we also cultivate a
-                  non-discriminatory atmosphere that nourishes and supports
-                  people of various backgrounds, ethnicities, cultures, genders,
-                  and orientations. Being accredited as a Great Place to Work®
-                  and a Top 100 India's Best Workplaces for Women (Large) for
-                  the second year in a row is testament to the inclusive culture
-                  we build and value.
-                </p>
+        <div class="image-component single-featured-career-image paddingBottomMobile-fifty">
+          <h1>WHY COFORGE</h1>
+          <img src="./assets/career-1.png" alt="about section featured content" />
+        </div>
+      </section>
+      <div>
+        <h2>
+          Right from rewards and recognition, policies and schemes to a
+          sprawling campus with state-of-the-art facilities, at Coforge, we
+          offer support to our employees so that they can be unparalleled,
+          empowered, and happy at work.
+        </h2>
+      </div>
+      <div class="section-title paddingTopDesktop-hundred paddingTopMobile-fifty">
+        <h3 class="title">AWARDS AND RECOGNITION</h3>
+        <div class="underline"></div>
+      </div>
+      <div class="single-featured-text-component">
+        <div class="featured-center">
+          <div class="about-info">
+            <h2>
+              Today’s milestones. Tomorrow’s starting line
+            </h2>
+            <section
+            class="single-featured paddingTopDesktop-fifty paddingBottomDesktop-hundred paddingTopMobile-fifty paddingBottomMobile-fifty">
+            <div class="single-featured-text-component">
+              <div class="featured-center">
+                <div class="about-info">
+                  <div class="image-component single-featured-image paddingBottomMobile-fifty">
+                    <img src="./assets/coforge-1.webp" alt="coforge-1 image featured content" />
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div
-            class="image-component single-featured-career-image paddingBottomMobile-fifty"
-          >
-            <h1>WHY COFORGE</h1>
-            <img
-              src="./assets/career-1.png"
-              alt="about section featured content"
-            />
-          </div>
-        </section>
-        <div>
-          <h2>
-            Right from rewards and recognition, policies and schemes to a
-            sprawling campus with state-of-the-art facilities, at Coforge, we
-            offer support to our employees so that they can be unparalleled,
-            empowered, and happy at work.
-          </h2>
-        </div>
-      </div>
-    </div>
-    <!-- single featured component end -->
-
-    <!-- contact promotion section start -->
-    <div class="contact-promotion-container light-pink-background">
-      <div class="contact-promotion-center wrapper">
-        <div
-          class="section-title paddingTopDesktop-hundred paddingTopMobile-fifty"
-        >
-          <h3 class="title">contact us for your future</h3>
-          <div class="underline"></div>
-        </div>
-        <section
-          class="contact-promotion paddingTopDesktop-fifty paddingBottomDesktop-hundred paddingTopMobile-fifty paddingBottomMobile-fifty"
-        >
-          <div class="contact-promo-img">
-            <img
-              src="./assets/contact-promotion.jpeg"
-              alt="contact promotion image"
-            />
-            <div class="contact-info-container text-center text-container">
-              <h2 class="contact-heading">
-                enroll for our various b.tech courses anywhere from india
-              </h2>
-              <a href="./contact.html" class="button-primary-light"
-                >contact us</a
-              >
+            <div class="image-component single-featured-image paddingBottomMobile-fifty">
+              <img src="./assets/coforge-2.webp" alt="coforge-2 image featured content" />
             </div>
+          </section> 
+            <p>
+              Coforge has been honored with the ServiceNow 2024 Emerging Industry Partner of the Year – Worldwide award
+              Coforge launches Orion- A Gen AI-based autonomous self-service solution to enhance customer experience
+              across multiple industries
+            </p>
           </div>
-        </section>
+        </div>
       </div>
-    </div>
-    <!-- contact promotion section end -->
+      <!-- single featured component end -->
 
-    <!-- footer section start -->
-    <div class="footer-container">
-      <div class="footer-center wrapper">
-        <div class="footer-links-main">
-          <ul class="footer-links">
-            <li><a class="footer-link" href="./">Home</a></li>
-            <li><a class="footer-link" href="./about.html">about</a></li>
-            <li><a class="footer-link" href="./courses.html">courses</a></li>
-            <li><a class="footer-link" href="./contact.html">contact</a></li>
-            <li>
-              <a class="footer-link active" href="./career.html">careers</a>
-            </li>
-          </ul>
-        </div>
-        <div class="social-links-main">
-          <ul class="social-links">
-            <li class="social-link">
-              <a
-                href="https://www.instagram.com/coforge.company/"
-                target="_blank"
-              >
-                <img src="./icons/instagram.svg" alt="Coforge instagram" />
-              </a>
-            </li>
-            <li class="social-link">
-              <a
-                href="https://www.youtube.com/channel/UC-9Vk052THg8iIOJQQNUkqQ"
-                target="_blank"
-              >
-                <img src="./icons/youtube.svg" alt="Coforge youtube" />
-              </a>
-            </li>
-            <li class="social-link">
-              <a href="https://github.com/Coforge" target="_blank">
-                <img src="./icons/github.svg" alt="Coforge github" />
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-copy-right">
-          <p>
-            Copyright 2024 - <span class="copyright-date">2025</span>, Made by
-            Coforge Management || Bangalore.
-          </p>
+      <!-- contact promotion section start -->
+      <div class="contact-promotion-container light-pink-background">
+        <div class="contact-promotion-center wrapper">
+          <div class="section-title paddingTopDesktop-hundred paddingTopMobile-fifty">
+            <h3 class="title">contact us for your future</h3>
+            <div class="underline"></div>
+          </div>
+          <section
+            class="contact-promotion paddingTopDesktop-fifty paddingBottomDesktop-hundred paddingTopMobile-fifty paddingBottomMobile-fifty">
+            <div class="contact-promo-img">
+              <img src="./assets/contact-promotion.jpeg" alt="contact promotion image" />
+              <div class="contact-info-container text-center text-container">
+                <h2 class="contact-heading">
+                  enroll for our various b.tech courses anywhere from india
+                </h2>
+                <a href="./contact.html" class="button-primary-light">contact us</a>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
-    </div>
-    <!-- footer section end -->
-  </body>
+      <!-- contact promotion section end -->
+
+      <!-- footer section start -->
+      <div class="footer-container">
+        <div class="footer-center wrapper">
+          <div class="footer-links-main">
+            <ul class="footer-links">
+              <li><a class="footer-link" href="./">Home</a></li>
+              <li><a class="footer-link" href="./about.html">about</a></li>
+              <li><a class="footer-link" href="./courses.html">courses</a></li>
+              <li><a class="footer-link" href="./contact.html">contact</a></li>
+              <li>
+                <a class="footer-link active" href="./career.html">careers</a>
+              </li>
+            </ul>
+          </div>
+          <div class="social-links-main">
+            <ul class="social-links">
+              <li class="social-link">
+                <a href="https://www.instagram.com/coforge.company/" target="_blank">
+                  <img src="./icons/instagram.svg" alt="Coforge instagram" />
+                </a>
+              </li>
+              <li class="social-link">
+                <a href="https://www.youtube.com/channel/UC-9Vk052THg8iIOJQQNUkqQ" target="_blank">
+                  <img src="./icons/youtube.svg" alt="Coforge youtube" />
+                </a>
+              </li>
+              <li class="social-link">
+                <a href="https://github.com/Coforge" target="_blank">
+                  <img src="./icons/github.svg" alt="Coforge github" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-copy-right">
+            <p>
+              Copyright 2024 - <span class="copyright-date">2025</span>, Made by
+              Coforge Management || Bangalore.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- footer section end -->
+</body>
+
 </html>
