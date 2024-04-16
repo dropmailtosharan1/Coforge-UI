@@ -51,11 +51,11 @@
     position: relative;
   }
   .home-page.page-container .img-component {
-    aspect-ratio: 1920/1080;
+    aspect-ratio: 1920/1000;
     position: relative;
   }
   .page-container .heading {
-    font-size: 64px;
+    font-size: 50px;
   }
   .page-container .img-component::before {
     position: absolute;
@@ -74,7 +74,7 @@
     transform: translate(-50%, -50%);
   }
   .page-container .small-heading {
-    font-size: 34px;
+    font-size: 25px;
   }
   .page-container .home-button {
     animation: bounceAnimation linear 3s infinite alternate;
